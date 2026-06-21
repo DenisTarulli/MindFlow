@@ -1,4 +1,4 @@
-# Mindlow
+Ôªø# MindFlow
 
 Proyecto experimental de Unity 2D.
 
@@ -8,12 +8,12 @@ Investigar sistemas de dificultad adaptativa en puzles.
 Restricciones:
 - Sin personaje jugable.
 - Sin movimiento.
-- Sin exploraciÛn.
+- Sin exploraci√≥n.
 - Sin combate.
 - Sin Machine Learning.
 
 Prioridades:
-1. RecolecciÛn de mÈtricas.
-2. AdaptaciÛn din·mica.
+1. Recolecci√≥n de m√©tricas.
+2. Adaptaci√≥n din√°mica.
 3. Modularidad.
-4. ExportaciÛn de datos para investigaciÛn.
+4. Exportaci√≥n de datos para investigaci√≥n.

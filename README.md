@@ -1,12 +1,12 @@
-# Mindlow
+# MindFlow
 
-Mindlow is an experimental Unity 2D project focused on adaptive difficulty in puzzle-based experiences.
+MindFlow is an experimental Unity 2D project focused on adaptive difficulty in puzzle-based experiences.
 
 The project is designed as a research-oriented prototype: its main goal is to observe how players interact with puzzles, collect structured metrics, estimate performance through deterministic rules, and adjust puzzle difficulty without using machine learning.
 
 ## Purpose
 
-Mindlow explores adaptive difficulty as a tool for puzzle design and academic analysis. Instead of relying on character movement, combat, exploration, or action-based mechanics, the project focuses on puzzle sessions as measurable research units.
+MindFlow explores adaptive difficulty as a tool for puzzle design and academic analysis. Instead of relying on character movement, combat, exploration, or action-based mechanics, the project focuses on puzzle sessions as measurable research units.
 
 The core research loop is:
 
@@ -30,7 +30,7 @@ Player solves a puzzle
 
 ## Architecture
 
-Mindlow is organized around five main systems:
+MindFlow is organized around five main systems:
 
 ```text
 PuzzleSystem
@@ -45,12 +45,12 @@ Each system has a focused responsibility. Puzzle logic does not directly store m
 More detailed architecture notes are available in:
 
 ```text
-Assets/Scripts/Mindlow/ARCHITECTURE.md
+Assets/Scripts/MindFlow/ARCHITECTURE.md
 ```
 
 ## Research Constraints
 
-Mindlow intentionally avoids several traditional videogame systems in order to keep the research scope focused:
+MindFlow intentionally avoids several traditional videogame systems in order to keep the research scope focused:
 
 - No playable character.
 - No movement system.

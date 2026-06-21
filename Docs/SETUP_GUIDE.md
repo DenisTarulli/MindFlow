@@ -1,20 +1,20 @@
-# Mindlow Setup Guide
+# MindFlow Setup Guide
 
 This guide is for local project setup and development notes.
 
 ## First Unity Setup Steps
 
 1. Open the project in Unity.
-2. Create a new empty GameObject in the scene named `MindlowResearchRuntime`.
-3. Add the `MindlowResearchRuntime` script to that GameObject.
+2. Create a new empty GameObject in the scene named `MindFlowResearchRuntime`.
+3. Add the `MindFlowResearchRuntime` script to that GameObject.
 4. Create these configuration assets from the Unity asset menu:
-   - `Mindlow/Puzzles/Puzzle Definition`
-   - `Mindlow/Performance/Evaluation Settings`
-   - `Mindlow/Adaptive Difficulty/Settings`
-5. Assign the performance and adaptive difficulty settings assets to the `MindlowResearchRuntime` component.
+   - `MindFlow/Puzzles/Puzzle Definition`
+   - `MindFlow/Performance/Evaluation Settings`
+   - `MindFlow/Adaptive Difficulty/Settings`
+5. Assign the performance and adaptive difficulty settings assets to the `MindFlowResearchRuntime` component.
 6. Create another empty GameObject named `PuzzleLauncher`.
 7. Add the `PuzzleLaunchRequest` script to `PuzzleLauncher`.
-8. Assign the `MindlowResearchRuntime` scene object and a `Puzzle Definition` asset to `PuzzleLaunchRequest`.
+8. Assign the `MindFlowResearchRuntime` scene object and a `Puzzle Definition` asset to `PuzzleLaunchRequest`.
 9. Create a concrete puzzle script that inherits from `PuzzleBehaviour`.
 10. Add that concrete puzzle script to a puzzle GameObject and assign it to `PuzzleLaunchRequest`.
 
@@ -23,7 +23,7 @@ This guide is for local project setup and development notes.
 Concrete puzzle scripts should inherit from `PuzzleBehaviour` and report meaningful player actions:
 
 ```csharp
-using Mindlow.Puzzles;
+using MindFlow.Puzzles;
 
 public sealed class ExamplePuzzle : PuzzleBehaviour
 {
